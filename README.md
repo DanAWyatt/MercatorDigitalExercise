@@ -1,0 +1,2 @@
+# MercatorDigitalExercise
+Pre Interview Excercise
