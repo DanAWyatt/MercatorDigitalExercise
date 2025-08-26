@@ -1,0 +1,26 @@
+{
+  "name": "mercatordigitalexercise",
+  "version": "1.0.0",
+  "description": "Pre-Interview Exercise:\r For QA Engineer Candidates\r Please construct an automated test framework to execute the steps \r below. This can be done in any language and framework of your \r choice. This can be written entirely from scratch, or by building on \r existing templates, and following any format that you would like to \r use. Please upload your work to a git repository and share the link \r with us prior to your interview.\r We will ask you about your choices and for you to make some changes \r to what is tested during the technical interview.\r Step 1:\r • Navigate to the following URL https://www.saucedemo.com/\r Step 2:\r • Login using the following details (username: standard_user,\r password: secret_sauce)\r Step 3:\r • Select the highest price item (Please do not use the “Sort By” option\r on the page)\r Step 4:\r • Add the selected highest price item to the car",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanAWyatt/MercatorDigitalExercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanAWyatt/MercatorDigitalExercise/issues"
+  },
+  "homepage": "https://github.com/DanAWyatt/MercatorDigitalExercise#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0"
+  }
+}
