@@ -1,8 +1,8 @@
 // tests/sauceTest.spec.ts
-import { test } from '../fixtures/fixtureLogin';
+import { test } from '../fixtures/fixtureLogin.ts';
 import { expect } from '@playwright/test';
-import { addHighestPricedItemToCart } from '../utilities/inventoryUtils';
-import { getBasketItems } from '../utilities/basketUtils'; 
+import { addHighestPricedItemToCart } from '../utilities/inventoryUtils.ts';
+import { getBasketItems } from '../utilities/basketUtils.ts'; 
 
 test.describe.configure({ mode: 'serial' });
 
