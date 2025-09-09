@@ -1,5 +1,5 @@
 // utilities/basketUtils.ts
-import { Page } from '@playwright/test';
+import type { Page } from '@playwright/test';
 
 export async function getBasketItems(page: Page): Promise<string[]> {
   await page.click('[data-test="shopping-cart-link"]');

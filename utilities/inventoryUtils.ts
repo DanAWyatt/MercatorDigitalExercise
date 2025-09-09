@@ -1,5 +1,5 @@
-import { Page } from '@playwright/test';
-import { getItemPrice } from '../utilities/extractPrice'; 
+import type { Page } from '@playwright/test';
+import { getItemPrice } from '../utilities/extractPrice.js'; 
 
 export async function addHighestPricedItemToCart(page: Page): Promise<void> {
   if (page.isClosed()) {
